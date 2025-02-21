@@ -13,11 +13,10 @@ header {
 }
 
 nav {
+    display: block;
     background-color: #444;
     padding: 10px;
     text-align: center;
-    display: inline-block;
-    width: 80%;
 }
 
 nav ul {
@@ -30,7 +29,7 @@ nav ul li {
     display: inline-block;
     width: auto;
     padding: 10px 20px;
-    /* Hiển thị các mục menu theo hàng ngang với chiều rộng tự động */
+    
 }
 
 nav ul li a {
@@ -40,6 +39,7 @@ nav ul li a {
 }
 
 nav img {
+    display: block;
     width: 10%;
 }
 
